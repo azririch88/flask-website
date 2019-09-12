@@ -1,9 +1,8 @@
   <style type=text/css>
     h1 { background-image: url({{ url_for('static', filename='login.png') }}); }
   </style>
-{% block title %}Login Using Your Pallet Crypto Token Address{% endblock %}
-{% block body %}
-  <h2>Pallet Crypto Token</h2>
+Login Using Your Pallet Crypto Token Address
+<h2>Pallet Crypto Token</h2>
   <form action="{{ url_for('general.first_login') }}" method=post>
     <p>
       Enter Your Pallet Crypto Token Address</a>
